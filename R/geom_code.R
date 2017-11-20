@@ -284,7 +284,7 @@ map_observation <- function(storm_observation, location="Louisiana", zoom=6, sca
 #------------------------------------------------------------------------------------
 #------------------------------------------------------------------------------------
 
-#df_raw <- load_data()
+df_raw <- load_data()
 write.csv(df_raw, file = "df_raw.csv") # writing down the raw data
 
 # storm="KATRINA-2005", dt=ymd_h("2005-08-29 12")
